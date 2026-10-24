@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UD Clinic | First Hug – FaceLift Confidence Check</title>
+<meta name="theme-color" content="#654528">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Prompt:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+:root{--g:#4a3424;--bar:#654528;--ink:#2e1f14;--mute:#66523f;--card:#fffaf3;--line:#e4d4bd;--gold:#7a5a2e;--soft:#f0e4d3;--cr:#f6e3c6;color-scheme:light;box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0}html{scroll-padding-top:90px}[hidden]{display:none!important}
+body{position:relative;font:400 15px/1.7 'Prompt',system-ui,sans-serif;color:var(--ink);background:linear-gradient(180deg,#5b3d27 0,#664529 300px,#e0c8a6 560px,#f3e6d1 760px) #f3e6d1;min-height:100vh}
+body::before{content:"";position:absolute;inset:0 0 auto;height:620px;background-image:linear-gradient(rgba(246,227,198,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(246,227,198,.07) 1px,transparent 1px);background-size:64px 64px;-webkit-mask-image:linear-gradient(#000,transparent);mask-image:linear-gradient(#000,transparent);pointer-events:none}
+h1,h2,h3,.btn,.chip,.logo,nav button,.prog b{font-family:'Outfit','Prompt',sans-serif}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:fixed;inset:0 0 auto;z-index:20;padding-top:env(safe-area-inset-top,0px);color:#fff;transition:background .35s,box-shadow .35s}header.sc{background:var(--bar);box-shadow:0 4px 18px rgba(0,0,0,.2)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:1200px}
+.logo{font:600 30px/1 'Outfit',sans-serif;background:none;border:0;color:inherit;cursor:pointer;padding:0;min-height:44px}
+nav{display:flex;gap:2px;align-items:center}nav button{position:relative;overflow:hidden;background:none;border:0;color:inherit;font:500 16px 'Outfit','Prompt',sans-serif;padding:8px 14px;cursor:pointer;border-radius:99px;transition:background .2s}nav button:hover{background:rgba(255,255,255,.15)}
+.bgb{display:none;background:none;border:0;color:inherit;font-size:28px;cursor:pointer;min-width:44px;min-height:44px}
+@media(max-width:899px){.bgb{display:block}nav{display:none;position:fixed;top:calc(64px + env(safe-area-inset-top,0px));left:0;right:0;flex-direction:column;align-items:stretch;background:var(--bar);padding:6px 16px 16px}nav.open{display:flex}nav button{text-align:left;padding:14px 8px;border-radius:8px}}
+.screen{display:none;padding:96px 0 90px}.screen#s0{padding:0 0 60px}.screen.on{display:block}
+.hero{position:relative;min-height:min(100vh,780px);display:grid;align-items:center;padding:120px 0 70px;color:#fff;background:radial-gradient(ellipse at 78% 28%,rgba(255,224,176,.38),transparent 55%),repeating-linear-gradient(90deg,rgba(0,0,0,.08) 0 24px,transparent 24px 48px),linear-gradient(160deg,#9a7048,#5b3d27);background-size:cover;background-position:center}
+.hero .ht{width:100%;max-width:1040px;margin:0 auto;padding:0 20px;display:grid;gap:14px;justify-items:start}
+.hero h1{font:200 clamp(34px,8.6vw,112px)/1 'Outfit',sans-serif;letter-spacing:.02em;text-shadow:0 2px 24px rgba(0,0,0,.25)}
+.eyebrow{font:500 13px 'Outfit',sans-serif;letter-spacing:.35em}.sp{font:200 clamp(13px,2.4vw,26px) 'Outfit',sans-serif;letter-spacing:.5em;text-transform:uppercase}
+.qt{font:italic 300 clamp(17px,2.4vw,28px)/1.55 'Prompt',sans-serif;max-width:640px;margin-top:6px}.rs{font-size:13px;opacity:.85}
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;background:var(--bar);color:#fbf3e8;font-weight:500;font-size:16px;padding:13px 30px;border-radius:99px;min-height:48px;transition:transform .15s,background .2s,box-shadow .2s}
+.btn.lt{background:var(--cr);color:var(--g)}.btn.ghost{background:rgba(255,250,243,.88);color:var(--g);border:1px solid var(--g)}.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn:hover{background:var(--g);box-shadow:0 6px 16px rgba(74,52,36,.28)}.btn.lt:hover{background:#fff}.btn.ghost:hover{background:var(--soft);box-shadow:none}.btn:disabled:hover{background:var(--bar);box-shadow:none}
+.btn:focus-visible,.opt:focus-visible,.chip:focus-visible,.back:focus-visible,.logo:focus-visible,nav button:focus-visible,.bb:focus-visible,.ci:focus-visible,.bgb:focus-visible,.lnk:focus-visible{outline:3px solid #e9d3ae;outline-offset:2px}
+.lnk{background:none;border:0;color:inherit;font:500 14px 'Prompt',sans-serif;text-decoration:underline;cursor:pointer;padding:10px 0}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center;font-size:14px;font-weight:500;margin:34px 0 24px}.trio b{display:grid;place-items:center;width:50px;height:50px;border-radius:50%;background:var(--soft);margin:0 auto 6px;font-size:20px;color:var(--g)}
+.band{border-radius:48px 16px 48px 16px;padding:30px 28px;background:linear-gradient(135deg,#654528,#4a3424);color:var(--cr)}.band h2{font:300 clamp(20px,3vw,28px)/1.5 'Prompt',sans-serif}.band p{font-size:14px;opacity:.9;margin-top:8px}
+.prog{display:flex;align-items:center;gap:12px;font-size:14px;margin-bottom:12px;color:var(--cr)}.prog b{font-weight:300;font-size:30px;line-height:1}.dots{flex:1;max-width:420px;display:flex;gap:6px}.dots i{flex:1;height:2px;border-radius:2px;background:rgba(246,227,198,.3)}.dots i.f{background:var(--cr)}
+h2.q{font-size:clamp(28px,5vw,44px);line-height:1.25;font-weight:300;color:var(--cr)}.sub{color:#f1dfc5;font-size:15px;margin:8px 0 22px;max-width:560px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}@media(min-width:760px){.grid{grid-template-columns:repeat(4,1fr);gap:14px}.opt .face{width:72px;height:72px}}
+.opt{position:relative;overflow:hidden;background:var(--card);border:1.5px solid var(--line);border-radius:26px;padding:14px 6px;text-align:center;font:500 13px/1.35 'Prompt',sans-serif;color:var(--ink);cursor:pointer;min-height:44px;transition:transform .15s,background .2s,border-color .2s}
+.opt .face{width:58px;height:58px;border-radius:50%;background:#f4eadc;display:grid;place-items:center;margin:0 auto 6px;overflow:hidden;font-size:22px}.opt .face img{width:100%;height:100%;object-fit:cover}
+.opt[aria-pressed=true]{background:var(--g);color:#fbf3e8;border-color:var(--g)}.opt[aria-pressed=true]::after{content:"✓";position:absolute;top:6px;right:11px}
+.opt.u{grid-column:1/-1;border-style:dashed;display:flex;align-items:center;justify-content:center;gap:10px}.opt.u .face{margin:0;width:40px;height:40px}.opt:hover,.chip:hover{border-color:var(--g)}
+.nav{display:flex;justify-content:space-between;align-items:center;margin-top:24px;gap:10px}
+.back{position:relative;overflow:hidden;border:1px solid var(--g);border-radius:99px;padding:0 20px;min-height:44px;color:var(--g);background:rgba(255,250,243,.85);font:500 15px 'Prompt',sans-serif;cursor:pointer;transition:transform .15s}
+.frame{aspect-ratio:3/4;max-width:300px;border-radius:40px 14px 40px 14px;border:2px dashed var(--line);display:grid;place-items:center;overflow:hidden;background:var(--card);color:var(--mute);font-size:14px;text-align:center;margin-bottom:12px}.frame img{width:100%;height:100%;object-fit:cover}
+.pick{display:flex;gap:10px;flex-wrap:wrap}.note{font-size:13px;color:var(--mute);margin-top:10px}
+.cons{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin-top:12px;color:var(--mute)}.cons input{margin-top:4px;width:18px;height:18px;flex:none}.cons a{color:var(--g)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:4px 0 10px;margin-bottom:6px}.chip{position:relative;overflow:hidden;flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:8px 18px;font-size:14px;cursor:pointer;min-height:40px;transition:transform .15s,background .2s}.chip[aria-pressed=true]{background:var(--g);color:#fbf3e8;border-color:var(--g)}
+.cases{counter-reset:c;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+@media(max-width:700px){.cases{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}.case{flex:0 0 84%;scroll-snap-align:start}}
+.case,.promo{position:relative}.case::before,.promo::before{position:absolute;top:18px;left:0;z-index:2;font:500 14px 'Outfit',sans-serif;letter-spacing:.25em;padding:5px 34px 5px 16px;color:var(--g);background:linear-gradient(90deg,var(--cr) 60%,transparent)}
+.case{counter-increment:c;background:var(--card);border:1px solid var(--line);border-radius:44px 14px 44px 14px;overflow:hidden;box-shadow:0 4px 18px rgba(74,52,36,.12);display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}.case::before{content:"CASE 0" counter(c)}
+.case img{width:100%;aspect-ratio:1;object-fit:cover;display:block}.case div{padding:14px 16px;display:grid;gap:4px;flex:1;align-content:start}.case h3{font-size:16px;font-weight:500}.case small{color:var(--mute);font-size:13px}.case .btn{width:100%;justify-content:center;margin-top:8px;padding:12px}.case:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(74,52,36,.2)}
+.empty{padding:20px;background:var(--card);border-radius:20px;border:1px dashed var(--line);color:var(--mute)}
+.promos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:26px}
+.promo{background:linear-gradient(160deg,#6b4a2f,#4a3424);color:#fbf3e8;border-radius:14px 44px 14px 44px;padding:56px 16px 16px;display:grid;gap:10px}.promo::before{content:"PROMOTION"}.promo img{width:100%;border-radius:18px}.promo .btn{background:var(--cr);color:var(--g);justify-content:center}
+h3.sec{font-size:22px;font-weight:300;margin:30px 0 12px;color:var(--g);scroll-margin-top:90px}
+.doc{display:grid;gap:18px;background:repeating-linear-gradient(90deg,rgba(0,0,0,.07) 0 22px,transparent 22px 44px),linear-gradient(150deg,#8a6240,#4a3424);border-radius:56px 16px 56px 16px;padding:24px;margin-top:22px;color:var(--cr)}@media(min-width:760px){.doc{grid-template-columns:220px 1fr;align-items:center;padding:32px}}
+.doc img{width:100%;max-width:220px;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:32px 10px 32px 10px;justify-self:center}
+.doc>div{border:1px solid rgba(246,227,198,.65);border-radius:56px 0 56px 0;padding:22px 26px}.doc q{display:block;font:italic 300 clamp(18px,2.4vw,24px)/1.6 'Prompt',sans-serif;quotes:none}.doc q::before{content:"“";display:block;font:700 56px/.8 Georgia,serif;opacity:.5}
+.doc small{display:block;font-size:13px;opacity:.85;margin-top:10px}.doc .btn.ghost{color:var(--g)}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:12px 18px;margin-bottom:8px}.faq summary{font-weight:500;cursor:pointer;min-height:28px}.faq p{color:var(--mute);margin-top:8px;font-size:14px}
+form{display:grid;gap:6px;max-width:480px;background:var(--card);border:1px solid var(--line);border-radius:44px 14px 44px 14px;padding:24px}label.l{font-weight:500;font-size:14px;margin-top:8px}
+input[type=text],input[type=tel],select{width:100%;font:16px 'Prompt',sans-serif;padding:12px 14px;border:1.5px solid var(--g);border-radius:14px;background:#fff;color:var(--ink)}
+.err{color:#9b2c1c;font-weight:600;min-height:22px}.ok{background:var(--card);border:1px solid var(--line);padding:22px;border-radius:44px 14px 44px 14px;max-width:480px}
+.chat{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:15;display:flex;align-items:center;gap:14px}
+.bb{position:relative;background:#f4f6fb;color:#222;border:0;border-radius:99px;padding:12px 22px;font:400 14px 'Prompt',sans-serif;box-shadow:0 6px 20px rgba(0,0,0,.18);cursor:pointer}.bb::after{content:"";position:absolute;right:-8px;top:50%;margin-top:-8px;border:8px solid transparent;border-left-color:#f4f6fb;border-right:0}
+.ci{width:54px;height:54px;border-radius:50%;border:0;background:#17b8d3;display:grid;place-items:center;cursor:pointer;animation:pl 2.4s infinite;transition:transform .15s}.ci svg{width:26px;height:26px;fill:#fff}.ci:active,.bb:active{transform:scale(.94)}@media(max-width:600px){.bb{display:none}}
+footer{background:#4a3424;color:#e9d3ae;padding:22px 0 100px;font-size:13px}
+.rp{position:absolute;border-radius:50%;background:currentColor;opacity:.25;transform:scale(0);animation:rp .6s ease-out forwards;pointer-events:none}
+@keyframes rp{to{transform:scale(1);opacity:0}}@keyframes up{from{opacity:0;transform:translateY(16px)}}@keyframes pop{0%{transform:scale(.92)}100%{transform:scale(1)}}@keyframes ck{from{transform:scale(0)}}@keyframes ld{to{transform:translateX(100%)}}@keyframes pl{0%{box-shadow:0 0 0 0 rgba(23,184,211,.55)}100%{box-shadow:0 0 0 16px rgba(23,184,211,0)}}
+.btn:active,.opt:active,.chip:active,.back:active{transform:scale(.95)}.opt[aria-pressed=true],.chip[aria-pressed=true]{animation:pop .35s cubic-bezier(.3,1.6,.5,1)}.opt[aria-pressed=true]::after{animation:ck .3s .1s backwards}
+.screen.on .w>*{animation:up .55s cubic-bezier(.2,.7,.2,1) backwards;animation-delay:calc(var(--i,0)*70ms)}.screen.on .ht>*{animation:up .7s cubic-bezier(.2,.7,.2,1) backwards;animation-delay:calc(.15s + var(--j,0)*100ms)}
+.case{animation:up .5s cubic-bezier(.2,.7,.2,1) backwards;animation-delay:calc(var(--k,0)*90ms)}.ok:not([hidden]){animation:pop .5s cubic-bezier(.3,1.6,.5,1)}
+#ld{position:fixed;inset:0;z-index:50;background:var(--bar);color:#f6f1e6;display:grid;place-content:center;justify-items:center;gap:16px;transition:opacity .5s,visibility .5s}#ld.out{opacity:0;visibility:hidden}
+#ld .lg{font:200 48px/1 'Outfit',sans-serif;letter-spacing:6px;text-align:center;animation:up .8s backwards}#ld small{display:block;font:300 12px 'Outfit',sans-serif;letter-spacing:.7em;margin-top:6px}
+#ld i{display:block;width:120px;height:2px;background:rgba(246,241,230,.25);overflow:hidden;border-radius:2px;position:relative}#ld i::after{content:"";position:absolute;inset:0;background:#e9d3ae;transform:translateX(-100%);animation:ld 1.1s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}}
+.ph{display:grid;place-content:center;justify-items:center;gap:4px;text-align:center;background:repeating-linear-gradient(45deg,rgba(101,69,40,.06) 0 12px,transparent 12px 24px),var(--soft);color:var(--g);border:2px dashed #b9a07e;padding:14px;width:100%}.ph b{font:600 22px 'Outfit',sans-serif;letter-spacing:.12em}.ph span{font-size:13px}.ph small{font-size:12px;color:var(--mute)}
+.case>.ph{flex:none;align-content:center;aspect-ratio:1;border:0;border-bottom:2px dashed #b9a07e;border-radius:0}
+.promo .ph,.doc .ph{background-color:rgba(255,255,255,.1);color:var(--cr);border:2px dashed rgba(246,227,198,.5)}.promo .ph small,.doc .ph small{color:#e9d3ae}.promo .ph{aspect-ratio:4/5;border-radius:18px}.doc .ph{aspect-ratio:3/4;max-width:220px;border-radius:32px 10px 32px 10px;justify-self:center;padding:14px}
+.pn{font:600 14px 'Outfit',sans-serif;color:var(--g);letter-spacing:.05em}.ph.tag{position:absolute;right:20px;bottom:20px;width:auto;max-width:260px;background-color:rgba(0,0,0,.28);color:#fff;border:2px dashed rgba(255,255,255,.55);border-radius:14px;padding:10px 16px;z-index:1}.ph.tag small{color:#f1dfc5}
+.sp2{text-transform:none;letter-spacing:.08em;font-size:clamp(14px,2.2vw,22px)}.hg{width:.75em;height:.75em;vertical-align:-.04em}#rz p{margin-top:8px}#rz small{opacity:.85}.cdi img,.cdi .ph{width:100%;aspect-ratio:1;object-fit:cover;border-radius:44px 14px 44px 14px}
+.hero{min-height:100vh}.hero .ht{position:relative;z-index:2}.ph.tag{inset:0;right:0;bottom:0;width:100%;max-width:none;height:100%;border-radius:0;border-width:3px;background-color:rgba(0,0,0,.18);z-index:1;place-content:center;justify-items:center;padding:0 20px;pointer-events:none}.ph.tag b{font-size:clamp(64px,16vw,200px);font-weight:200;opacity:.5;line-height:1}.ph.tag span{font-size:clamp(16px,2.4vw,28px);opacity:.7}.ph.tag small{font-size:clamp(13px,1.8vw,20px);opacity:.7}
+.frame{position:relative}.frame::after{content:"";position:absolute;inset:14px;pointer-events:none;background:linear-gradient(var(--g),var(--g)) 0 0/28px 3px,linear-gradient(var(--g),var(--g)) 0 0/3px 28px,linear-gradient(var(--g),var(--g)) 100% 0/28px 3px,linear-gradient(var(--g),var(--g)) 100% 0/3px 28px,linear-gradient(var(--g),var(--g)) 0 100%/28px 3px,linear-gradient(var(--g),var(--g)) 0 100%/3px 28px,linear-gradient(var(--g),var(--g)) 100% 100%/28px 3px,linear-gradient(var(--g),var(--g)) 100% 100%/3px 28px;background-repeat:no-repeat}
+.stp{display:inline-block;font:500 13px 'Outfit',sans-serif;letter-spacing:.1em;color:var(--g);background:var(--cr);border-radius:99px;padding:3px 14px;margin-bottom:10px}
+.tips{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:420px;margin-top:18px;text-align:center;font-size:13px}.tips b{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--soft);color:var(--g);margin:0 auto 4px;font-size:18px}
+.rzb{border-radius:48px 16px 48px 16px;padding:24px;background:repeating-linear-gradient(45deg,rgba(255,255,255,.12) 0 10px,transparent 10px 20px),linear-gradient(135deg,#c89a62,#8a6240);color:#fff;margin-bottom:24px}.rzb h2{font:italic 300 clamp(26px,4vw,36px)/1.2 'Outfit','Prompt',sans-serif}.rzb>p{font-size:14px;opacity:.95}
+.rzp{display:grid;gap:14px;margin-top:14px}@media(min-width:700px){.rzp{grid-template-columns:200px 1fr;align-items:start}}.rzp .frame{margin:0;max-width:200px}
+.fd{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;text-align:left;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:20px;padding:12px 16px;margin-bottom:8px;font:inherit;cursor:pointer}.fd b{display:block;font-weight:500}.fd small{color:var(--mute)}
+.cases{grid-template-columns:1fr;gap:14px;padding:14px;border-radius:30px;background:repeating-linear-gradient(0deg,rgba(122,90,46,.12) 0 6px,transparent 6px 12px),repeating-linear-gradient(90deg,rgba(122,90,46,.12) 0 6px,transparent 6px 12px),#e7d2ae}
+.case{flex-direction:row;border-radius:32px 12px 32px 12px}.case img,.case>.ph{width:42%;flex:none;aspect-ratio:1;border-bottom:0}.case div{align-content:center}
+@media(max-width:700px){.cases{display:grid;overflow:visible}.case{flex:none}.case h3{font-size:14px}.case::before{font-size:11px;padding-right:20px}}
+h2.q.bh{font-style:italic}
+.bhd{background:linear-gradient(135deg,#654528,#4a3424);border-radius:32px 12px 32px 12px;padding:20px 24px 4px;margin-bottom:16px}.bhd .sub{margin-bottom:12px}
+.hero .hi{position:absolute;inset:0;z-index:1;overflow:hidden;width:100%;height:100%;max-width:none;border-radius:0}.hero .hi img{width:100%;height:100%;object-fit:cover;display:block}.hero img.x{display:none}
+.hero .hi:not(.ph)::after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(35,22,12,.5),rgba(35,22,12,.6))}
+.hero .hi.ph b{font-size:clamp(48px,9vw,130px)}
+@media(min-width:900px){.hero .ht{max-width:none;width:50%;margin:0;padding:0 2% 0 5%}.hero h1{font-size:clamp(34px,6vw,88px)}
+.hero .hi{inset:auto;top:96px;bottom:48px;left:50%;right:4%;width:auto;height:auto;border-radius:56px 16px 56px 16px}.hero .hi:not(.ph)::after{display:none}}
+</style>
+</head>
+<body>
+<noscript><style>#ld{display:none}#s0{display:block}</style></noscript>
+<div id="ld" aria-hidden="true"><div class="lg">UD<small>CLINIC</small></div><i></i></div>
+<header id="hd"><div class="w"><button class="logo" onclick="go(0)" aria-label="UD Clinic หน้าแรก">UD CLINIC</button>
+<nav id="nv" aria-label="เมนูหลัก"><button onclick="go(0)">Home</button><button onclick="go(1)">Match</button><button onclick="go(3)">Cases</button><button onclick="go(4)">Doctor</button><button onclick="gp()">Promotions</button><button onclick="go(5)">Contact</button></nav>
+<button class="bgb" id="bgb" aria-label="เมนู" aria-expanded="false" onclick="tm()">☰</button></div></header>
+
+<main>
+<section class="screen" id="s0">
+<div class="hero" id="bn"><div class="ht"><div class="eyebrow">UD CLINIC</div><h1><svg class="hg" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 30c0-10 6-18 16-18s16 8 16 18c-4 6-10 8-16 8S12 36 8 30z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M24 31c-6-4-7-8-4-10 2-1 4 0 4 2 0-2 2-3 4-2 3 2 2 6-4 10z" fill="currentColor"/></svg> First Hug</h1><div class="sp sp2">FaceLift Confidence Check × AI × หมอวิท</div>
+<p class="qt">เข้าใจคุณก่อนตัดสินใจ<br>เริ่มจากสิ่งที่คุณกังวล ให้ AI วิเคราะห์ใบหน้าเบื้องต้น เพื่อรู้ก่อนตัดสินใจ</p>
+<div><button class="btn lt" onclick="aiMode=1;go(2)"><svg class="hg" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 30c0-10 6-18 16-18s16 8 16 18c-4 6-10 8-16 8S12 36 8 30z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M24 31c-6-4-7-8-4-10 2-1 4 0 4 2 0-2 2-3 4-2 3 2 2 6-4 10z" fill="currentColor"/></svg> First Hug · เริ่มสแกนใบหน้า</button></div><div><button class="btn ghost" onclick="aiMode=0;go(1)"><svg class="hg" viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="8" width="16" height="32" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="26" y="8" width="16" height="32" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="14" cy="21" r="4" fill="currentColor"/><circle cx="34" cy="21" r="4" fill="currentColor"/></svg> ดูเคสที่ใกล้เคียงกับคุณ</button></div><p class="rs">ใช้เวลาประมาณ 2 นาที · ไม่ต้องสมัครสมาชิก</p></div><div class="sl" data-s="1" data-bg="1"></div></div>
+<div class="w"><h3 class="sec" style="margin-top:26px">สิ่งที่คุณจะได้รับ</h3><div class="trio" style="margin-top:8px"><div><b>◎</b>รู้ปัญหาจริง</div><div><b>▤</b>เทียบเคสที่ใกล้เคียงกับตัวเอง</div><div><b>✓</b>คำแนะนำจากแพทย์รายเคส</div></div>
+<div class="band"><h2>ดึงหน้าให้เหมาะกับโครงหน้า<br>และยังเป็นเราคนเดิม</h2><p>ที่ UD Clinic เราอยากให้คุณรู้จักใบหน้าตัวเองก่อนว่าควรดูแลแบบไหน ไม่มีแรงกดดันในการตัดสินใจ</p></div></div></section>
+
+<section class="screen" id="s1"><div class="w">
+<div class="prog" data-n="1"></div>
+<h2 class="q">เริ่มจากสิ่งที่คุณกังวล</h2>
+<p class="sub">เลือกได้มากกว่า 1 ข้อ เพื่อให้เราเลือกเคสตัวอย่างที่เกี่ยวข้องมาให้ดู</p>
+<div class="grid" id="opts"></div>
+<label class="l" for="ag" style="display:block;margin-top:18px;color:#f1dfc5">อายุของคุณ</label><select id="ag" style="max-width:220px"><option value="">ไม่ระบุ</option><option>ต่ำกว่า 35 ปี</option><option>35–44 ปี</option><option>45–54 ปี</option><option>55–64 ปี</option><option>65 ปีขึ้นไป</option></select>
+<div class="nav"><button class="back" onclick="go(0)">ย้อนกลับ</button><button class="btn" id="n1" disabled onclick="go(3)">ถัดไป</button></div>
+</div></section>
+
+<section class="screen" id="s2"><div class="w">
+<div class="prog" data-n="2"></div>
+<h2 class="q">ถ่ายรูปใบหน้าของคุณ</h2>
+<p class="sub">เพื่อให้ AI วิเคราะห์ใบหน้าเบื้องต้น · แสงเพียงพอ · ไม่สวมแว่น · หน้าตรง</p>
+<span class="stp">ขั้นตอน 1/3</span>
+<div class="frame" id="frame">ยังไม่มีรูป</div>
+<div class="pick"><button class="btn" onclick="f2.click()">ถ่ายรูป</button></div>
+<div class="tips"><div><b>☼</b>แสงเพียงพอ</div><div><b>◌</b>ไม่สวมแว่น</div><div><b>◎</b>ใบหน้าตรง</div></div>
+<input type="file" id="f2" accept="image/*" capture="user" hidden>
+<label class="cons" id="cpw" hidden><input type="checkbox" id="cp"><span>ยินยอมให้ UD Clinic ใช้รูปนี้เพื่อวิเคราะห์ด้วย AI และให้แพทย์ประเมินเบื้องต้น <a class="pv" target="_blank" rel="noopener">นโยบายความเป็นส่วนตัว</a></span></label>
+<p class="note" id="se" role="alert" style="color:#7a2a18;font-weight:600"></p>
+<div class="nav"><button class="back" onclick="go(0)">ย้อนกลับ</button><button class="btn" id="n2" onclick="ana()">วิเคราะห์ด้วย AI</button></div>
+</div></section>
+
+<section class="screen" id="s3"><div class="w">
+<div class="prog" data-n="3"></div>
+<div id="rz" class="rzb" hidden><h2>First Hug ♡</h2><p>เข้าใจคุณก่อนตัดสินใจ · ผลวิเคราะห์ใบหน้าของคุณ</p><div class="rzp"><div class="frame" id="rf"></div><div id="rl"></div></div></div>
+<div class="bhd"><h2 class="q bh">Beyond the Hug</h2>
+<p class="sub">ดูเคสที่ใช่ก่อนตัดสินใจ · คัดจากข้อมูลของคุณ เพื่อประกอบการตัดสินใจเท่านั้น ผลลัพธ์แต่ละคนไม่เหมือนกัน และแพทย์ต้องประเมินใบหน้าจริงก่อนเสมอ</p></div>
+<div class="chips" id="chips" role="group" aria-label="ค้นหาตามปัญหาที่คุณสนใจ"></div>
+<div class="cases" id="cases"></div>
+<p class="note">ภาพเคสได้รับความยินยอมจากเจ้าของภาพแล้ว</p>
+<h3 class="sec" id="pr">โปรโมชั่นที่แนะนำสำหรับคุณ</h3><p class="note" id="pn" style="margin:-6px 0 8px"></p>
+<div class="promos"><div class="promo"><div class="sl" data-s="13"></div><button class="btn" onclick="go(5)">ปรึกษาโปรนี้กับทีมงาน</button></div>
+<div class="promo"><div class="sl" data-s="14"></div><button class="btn" onclick="go(5)">ปรึกษาโปรนี้กับทีมงาน</button></div></div>
+<h3 class="sec">คำแนะนำจากหมอวิท</h3><div class="doc"><div class="sl" data-s="15"></div><div><q>เราไม่ได้ดึงให้ตึงที่สุด แต่เราดึงให้เหมาะกับโครงหน้า และยังคงความเป็นคุณอยู่เสมอ</q><small>นพ. วรินทร พรวิรกิตรา · ศัลยแพทย์ตกแต่งใบหน้า</small><a class="btn ghost vd" target="_blank" rel="noopener" hidden style="margin-top:10px;text-decoration:none">▶ ดูวิดีโอ</a></div></div><p class="note">ผลวิเคราะห์นี้เป็นเพียงข้อมูลเบื้องต้น ไม่สามารถระบุสภาพจริงหรือแทนคำแนะนำจากแพทย์ผู้เชี่ยวชาญ</p>
+<div class="nav"><button class="back" onclick="go(aiMode?2:1)">ย้อนกลับ</button><button class="btn" onclick="go(4)">ปรึกษาหมอ</button></div>
+</div></section>
+
+<section class="screen" id="s4"><div class="w">
+<div class="prog" data-n="4"></div>
+<h2 class="q">คำถามที่ AI แนะนำให้คุยกับคุณหมอ</h2>
+
+<div class="faq" id="faq"></div>
+<p class="note">ข้อมูลทั่วไปเพื่อประกอบการตัดสินใจ ไม่ใช่การวินิจฉัย แพทย์จะประเมินอีกครั้งเมื่อพบจริง</p>
+<div class="nav"><button class="back" onclick="go(3)">ย้อนกลับ</button><button class="btn" onclick="ln()">ส่งคำถามไปปรึกษาคุณหมอทาง LINE</button></div>
+</div></section>
+
+<section class="screen" id="s5"><div class="w">
+<div class="prog" data-n="5"></div>
+<h2 class="q">นัดปรึกษาหมอวิท</h2>
+<p class="sub" id="sm">ฝากข้อมูลไว้ ทีมงานจะติดต่อกลับเพื่อนัดเวลาที่สะดวก</p>
+<form id="fm" onsubmit="return sd(event)" novalidate>
+<label class="l" for="dn">ชื่อ</label><input type="text" id="dn" autocomplete="name">
+<label class="l" for="dp">เบอร์โทรศัพท์</label><input type="tel" id="dp" inputmode="tel" autocomplete="tel">
+<label class="l" for="dt">ช่วงเวลาที่สะดวก</label><select id="dt"><option>ไม่ระบุ</option><option>เช้า</option><option>บ่าย</option><option>เย็น</option></select>
+<label class="l" for="dc">ช่องทางที่ให้ติดต่อ</label><select id="dc"><option>โทรศัพท์</option><option>LINE</option></select>
+<label class="cons"><input type="checkbox" id="dk"><span>ยินยอมให้ทีมงาน UD Clinic ติดต่อกลับตามข้อมูลที่ให้ไว้ <a class="pv" target="_blank" rel="noopener">นโยบายความเป็นส่วนตัว</a></span></label>
+<label class="cons" id="dpw" hidden><input type="checkbox" id="dpc"><span>ส่งรูปที่แนบให้แพทย์ดูล่วงหน้า</span></label>
+<p class="err" id="de" role="alert"></p>
+<div><button class="btn" type="submit">ส่งข้อมูล</button></div></form>
+<div class="ok" id="ok" hidden><b>ขอบคุณค่ะ</b><br>ทีมงานได้รับข้อมูลแล้วและจะติดต่อกลับเพื่อนัดเวลาปรึกษา</div>
+<div class="nav"><button class="back" onclick="go(4)">ย้อนกลับ</button><button class="back" onclick="reset()">เริ่มเช็กใหม่</button></div>
+</div></section>
+<section class="screen" id="s7"><div class="w"><h2 class="q">กำลังวิเคราะห์ใบหน้าด้วย AI</h2><p class="sub">ใช้เวลาสักครู่เพื่อประมวลผล…</p><div style="max-width:420px;height:8px;border-radius:8px;background:rgba(246,227,198,.3)"><i id="pb" style="display:block;height:100%;width:0;border-radius:8px;background:var(--cr)"></i></div><p class="sub" id="pt" style="margin-top:10px">0%</p></div></section>
+<section class="screen" id="s6"><div class="w"><h2 class="q" id="cn">Case Study</h2><div id="cd"></div><div class="nav"><button class="back" onclick="go(3)">ย้อนกลับ</button><button class="btn" onclick="go(5)">ปรึกษาเคสแบบนี้</button></div></div></section>
+</main>
+<footer><div class="w" id="ft"><p>ข้อมูลในหน้านี้เพื่อประกอบการตัดสินใจ ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์ ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล</p></div></footer>
+<div class="chat" id="fab"><button class="bb" onclick="ln()">ติดต่อเราที่นี่ได้เลยค่ะ</button><button class="ci" aria-label="ปรึกษาหมอวิท" onclick="ln()"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5.5h14a1.5 1.5 0 011.5 1.5v8a1.5 1.5 0 01-1.5 1.5h-8L6.5 20v-3.5H5A1.5 1.5 0 013.5 15V7A1.5 1.5 0 015 5.5z"/></svg></button></div>
+
+<script>
+/* ===== ตั้งค่า: กรอกก่อนเผยแพร่ ===== */
+var C={IMG:["","","","","","","","","","","","","","",""],/* ภาพ 15 ช่อง ใส่ path/URL/data URI ตามเลขช่อง: 01 พื้นหลังหน้าแรก · 02-09 ไอคอนข้อกังวล 8 ข้อ (ตามลำดับในหน้าเลือก) · 10-12 เคสตัวอย่าง · 13-14 โปสเตอร์โปรโมชัน · 15 ภาพหมอวิท */ALT:{},/* คำอธิบายภาพ เช่น {13:"โปรแกรม … 49,999 บาท"} */LINE_ID:"@314uwdps",/* เช่น @udclinic */LEAD_ENDPOINT:"",/* URL รับ POST JSON เช่น Apps Script/CRM */PRIVACY_URL:"",AI_ENDPOINT:"",/* URL รับ POST {photo} คืน {findings:[{t,d}]} */VIDEO_URL:"",AD_NO:"",/* เลขอนุมัติโฆษณา สบส. */PROMO_END:"",/* เช่น 31 ธ.ค. 2569 */CLINIC:{license:"",doctorLic:"",address:"",hours:""}};
+var SLOT=["พื้นหลังหน้าแรก (เต็มจอ)","ไอคอน: แก้มหย่อน","ไอคอน: กรอบหน้าไม่ชัด","ไอคอน: เหนียง / คอหย่อน","ไอคอน: ร่องแก้มลึก","ไอคอน: หน้าดูเหนื่อย","ไอคอน: อยากให้หน้าดูเล็กลง","ไอคอน: กลัวดึงแล้วหน้าแข็ง","ไอคอน: ผิวหมองคล้ำ","เคสตัวอย่าง 1 (ก่อน-หลัง)","เคสตัวอย่าง 2 (ก่อน-หลัง)","เคสตัวอย่าง 3 (ก่อน-หลัง)","โปสเตอร์โปรโมชัน 1","โปสเตอร์โปรโมชัน 2","ภาพหมอวิท"],SZ=["1920×1080","256×256","256×256","256×256","256×256","256×256","256×256","256×256","256×256","1000×1000","1000×1000","1000×1000","800×1000","800×1000","600×800"];
+function SL(n,mini,alt){var s=C.IMG[n-1],id=('0'+n).slice(-2);if(s)return'<img loading="lazy" src="'+s+'" alt="'+(alt!=null?alt:(C.ALT[n]||SLOT[n-1]))+'">';return mini?'<span class="pn">'+id+'</span>':'<div class="ph"><b>IMG '+id+'</b><span>'+SLOT[n-1]+'</span><small>'+SZ[n-1]+'</small></div>'}
+document.querySelectorAll('.sl').forEach(function(el){var n=+el.dataset.s;if(el.dataset.bg){if(C.IMG[0]){el.outerHTML='<div class="hi"><img src="'+C.IMG[0]+'" alt="'+(C.ALT[1]||SLOT[0])+'"></div>'}else el.outerHTML='<div class="ph tag hi"><b>IMG 01</b><span>'+SLOT[0]+'</span><small>'+SZ[0]+'</small></div>'}else el.outerHTML=SL(n)});
+var N=["แก้มหย่อน","กรอบหน้าไม่ชัด","เหนียง / คอหย่อน","ร่องแก้มลึก","หน้าดูเหนื่อย","อยากให้หน้าดูเล็กลง","กลัวดึงแล้วหน้าแข็ง","ผิวหมองคล้ำ","ยังไม่แน่ใจ"];
+/* tags = เลข index ของข้อกังวลที่เคสนี้เกี่ยวข้อง (ว่าง = แสดงเสมอ) · ใส่ age/tech/rec จากข้อมูลจริงของคลินิก */
+var CASES=[{slot:10,name:"ตัวอย่างเคส 1",tags:[],tech:"",rec:""},{slot:11,name:"ตัวอย่างเคส 2",tags:[],tech:"",rec:""},{slot:12,name:"ตัวอย่างเคส 3",tags:[],tech:"",rec:""}];
+var QA=[["ฉันควรดึงบริเวณไหน?","ขึ้นกับว่าความหย่อนคล้อยอยู่ส่วนใด เช่น แก้ม กรอบหน้า หรือเหนียง หมอจะประเมินจากโครงหน้าและความยืดหยุ่นของผิว แล้วแนะนำเฉพาะจุดที่จำเป็น",[0,1,3,5]],
+["จำเป็นต้องดึงถึงคอไหม?","ไม่จำเป็นเสมอไป หากเหนียงหรือผิวคอหย่อนร่วมด้วย การดูแลบริเวณคอจะช่วยให้ผลลัพธ์กลมกลืนกัน แต่ถ้าหย่อนเฉพาะใบหน้า อาจไม่ต้องรวมคอ",[2]],
+["จะดูเป็นธรรมชาติไหม จะหน้าแข็งหรือเปล่า?","เป้าหมายคือให้ดูสดใสขึ้นแต่ยังเป็นตัวคุณ การวางแผนร่วมกับหมอก่อนทำ รวมถึงการตกลงระดับที่ต้องการ ช่วยลดโอกาสที่ผลลัพธ์จะตึงเกินพอดี",[6,4]],
+["ผิวหมองคล้ำจะดีขึ้นด้วยไหม?","การดึงหน้าปรับความหย่อนคล้อย ไม่ได้ปรับสีผิวโดยตรง หมอจะแนะนำการดูแลผิวร่วมด้วยเมื่อเหมาะสม",[7,4]],
+["แผลจะอยู่บริเวณไหน?","โดยทั่วไปแพทย์จะวางแนวแผลตามแนวธรรมชาติ เช่น ตามขอบหูและแนวไรผม ตำแหน่งจริงขึ้นกับเทคนิคที่เลือก",[]],
+["ต้องพักฟื้นนานแค่ไหน?","แต่ละคนไม่เหมือนกัน โดยทั่วไปมักมีบวมช้ำช่วงแรกและค่อยๆ ดีขึ้นในไม่กี่สัปดาห์ แพทย์จะแจ้งระยะที่เหมาะกับเทคนิคและไลฟ์สไตล์ของคุณ",[]],
+["มีความเสี่ยงอะไรบ้าง?","การผ่าตัดทุกชนิดมีความเสี่ยง เช่น บวมช้ำ เลือดคั่ง ติดเชื้อ แผลเป็น หรือชาบริเวณผิวชั่วคราว ภาวะรุนแรงพบได้น้อย แต่ควรสอบถามแพทย์ให้ครบก่อนตัดสินใจ",[]],
+["ใครที่อาจยังไม่เหมาะ?","เช่น ผู้ที่สูบบุหรี่ ใช้ยาหรือสมุนไพรที่ทำให้เลือดออกง่าย หรือมีโรคประจำตัวที่ควบคุมไม่ได้ อาจต้องปรับแผนหรือรอก่อน แพทย์จะซักประวัติและประเมินเป็นรายบุคคล",[]]];
+var aiMode=0,AIF=[],DEMO=[{t:"ความหย่อนคล้อยบริเวณแก้ม",d:"ตัวอย่างข้อความ"},{t:"ร่องแก้มเริ่มชัด",d:"ตัวอย่างข้อความ"},{t:"กรอบหน้าไม่ชัดเจน",d:"ตัวอย่างข้อความ"}],sel=new Set(),fs=new Set(),photo=null,pick=-1,$=function(i){return document.getElementById(i)};
+function T(e,d){try{(window.dataLayer=window.dataLayer||[]).push(Object.assign({event:e},d||{}))}catch(x){}}
+document.querySelectorAll('.pv').forEach(function(a){if(C.PRIVACY_URL)a.href=C.PRIVACY_URL;else a.hidden=true});
+if(C.VIDEO_URL){var v=document.querySelector('.vd');v.href=C.VIDEO_URL;v.hidden=false}
+if(C.PROMO_END)$('pn').textContent='โปรโมชันถึงวันที่ '+C.PROMO_END+' · เงื่อนไขเป็นไปตามที่คลินิกกำหนด';
+var K=C.CLINIC,fx=[];if(K.license)fx.push('ใบอนุญาตสถานพยาบาล '+K.license);if(K.doctorLic)fx.push('ใบอนุญาตผู้ประกอบวิชาชีพเวชกรรม '+K.doctorLic);if(K.address)fx.push(K.address);if(K.hours)fx.push('เวลาทำการ '+K.hours);if(C.AD_NO)fx.push('เลขอนุมัติโฆษณา '+C.AD_NO);
+if(fx.length)$('ft').insertAdjacentHTML('beforeend','<p style="margin-top:6px">'+fx.join(' · ')+'</p>');
+document.querySelectorAll('.prog').forEach(function(p){var n=+p.dataset.n,d='';for(var i=1;i<=5;i++)d+='<i class="'+(i<=n?'f':'')+'"></i>';p.innerHTML='<b>0'+n+'</b><span>/ 05</span><div class="dots" aria-hidden="true">'+d+'</div>'});
+var box=$('opts');N.forEach(function(n,i){var b=document.createElement('button');b.className='opt'+(i==8?' u':'');b.setAttribute('aria-pressed','false');
+ b.innerHTML='<div class="face">'+(i<8?SL(2+i,1,""):'?')+'</div>'+n;
+ b.onclick=function(){if(i==8){sel.clear();box.querySelectorAll('.opt').forEach(function(x){x.setAttribute('aria-pressed','false')})}else{sel.delete(8);box.querySelector('.u').setAttribute('aria-pressed','false')}
+  sel.has(i)?sel.delete(i):sel.add(i);b.setAttribute('aria-pressed',sel.has(i));$('n1').disabled=!sel.size};box.appendChild(b)});
+function go(n){document.querySelectorAll('.screen').forEach(function(s){s.classList.remove('on')});$('s'+n).classList.add('on');stg($('s'+n));$('fab').hidden=n==5;
+ if(n==3){fs=new Set(aiMode?[]:[...sel].filter(function(i){return i<8}));RZ();RC()}if(n==4)RF();if(n==5)RS();T('step_'+n,{concerns:[...sel]});cur=n;$('nv').classList.remove('open');window.scrollTo(0,0);hs()}
+function RC(){var q=$('chips');q.innerHTML=N.slice(0,8).map(function(n,i){return'<button class="chip" aria-pressed="'+fs.has(i)+'" data-i="'+i+'">'+n+'</button>'}).join('');
+ q.querySelectorAll('.chip').forEach(function(b){b.onclick=function(){var i=+b.dataset.i;fs.has(i)?fs.delete(i):fs.add(i);RC()}});
+ var L=CASES.map(function(c,k){return{c:c,k:k,s:c.tags.filter(function(t){return fs.has(t)}).length}}).filter(function(x){return!fs.size||!x.c.tags.length||x.s>0}).sort(function(a,b){return b.s-a.s});
+ $('cases').innerHTML=L.length?L.map(function(x,j){var c=x.c;return'<article class="case" style="--k:'+j+'">'+SL(c.slot,0,"ภาพก่อน-หลัง "+c.name)+'<div><h3>'+c.name+'</h3>'+(c.tech?'<small>เทคนิค: '+c.tech+'</small>':'')+(c.rec?'<small>พักฟื้น: '+c.rec+'</small>':'')+'<button class="btn ghost" data-k="'+x.k+'">ดูรายละเอียดเคส</button></div></article>'}).join(''):'<p class="empty">ยังไม่มีเคสตัวอย่างตรงกับข้อกังวลนี้ ให้ทีมแพทย์แนะนำเคสที่เหมาะกับคุณได้ตอนปรึกษา</p>';
+ $('cases').querySelectorAll('[data-k]').forEach(function(b){b.onclick=function(){T('case_pick',{k:+b.dataset.k});CD(+b.dataset.k)}})}
+function RF(){var s=function(q){return q[2].some(function(t){return sel.has(t)})};var L=QA.filter(s).concat(QA.filter(function(q){return!s(q)}));
+ $('faq').innerHTML=L.slice(0,5).map(function(q,i){return'<details'+(i==0?' open':'')+'><summary>'+(i+1)+'. '+q[0]+'</summary><p>'+q[1]+'</p></details>'}).join('')}
+function RS(){$('sm').textContent=pick>=0?'คุณสนใจเคส “'+CASES[pick].name+'” · ฝากข้อมูลไว้ ทีมงานจะติดต่อกลับเพื่อนัดเวลาที่สะดวก':'ฝากข้อมูลไว้ ทีมงานจะติดต่อกลับเพื่อนัดเวลาที่สะดวก';$('dpw').hidden=!photo}
+function rs(f,cb,fail){var u=URL.createObjectURL(f),i=new Image();i.onload=function(){var s=Math.min(1,1024/Math.max(i.width,i.height)),c=document.createElement('canvas');c.width=Math.round(i.width*s);c.height=Math.round(i.height*s);c.getContext('2d').drawImage(i,0,0,c.width,c.height);cb(c.toDataURL('image/jpeg',.8))};i.onerror=function(){fail&&fail()};i.src=u}
+function ph(e){var inp=e.target,f=inp.files[0];if(!f)return;var fr=$('frame'),se=$('se');se.textContent='';photo=null;
+ var show=function(src){fr.innerHTML='';var im=new Image();im.alt='รูปที่เลือก';im.src=src;fr.appendChild(im)};
+ var u=URL.createObjectURL(f);show(u);$('cpw').hidden=false;
+ rs(f,function(d){photo=d;show(d);inp.value=''},function(){var r=new FileReader();r.onload=function(){photo=r.result;inp.value=''};r.onerror=function(){fr.textContent='ยังไม่มีรูป';se.textContent='ไม่สามารถอ่านรูปนี้ได้ กรุณาเลือกไฟล์ JPG/PNG';inp.value=''};r.readAsDataURL(f)})}
+$('f2').onchange=ph;
+function sd(e){e.preventDefault();var er=function(m){$('de').textContent=m;return false};$('de').textContent='';
+ var p=$('dp').value.replace(/\D/g,'');if(!$('dn').value.trim())return er('กรุณากรอกชื่อ');if(p.length<9)return er('กรุณากรอกเบอร์โทรศัพท์ให้ครบ');if(!$('dk').checked)return er('กรุณาติ๊กยินยอมให้ติดต่อกลับ');
+ var sp=photo&&$('cp').checked&&$('dpc').checked;
+ var d={name:$('dn').value.trim(),phone:p,time:$('dt').value,channel:$('dc').value,concerns:[...sel].map(function(i){return N[i]}),age:$("ag").value||null,caseOfInterest:pick>=0?CASES[pick].name:null,photo:sp?photo:null,source:location.search,consentContact:true,consentPhoto:!!sp};
+ var done=function(){$('fm').hidden=true;$('ok').hidden=false;T('lead',{ch:d.channel})};
+ if(C.LEAD_ENDPOINT){fetch(C.LEAD_ENDPOINT,{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify(d)}).then(function(r){if(!r.ok)throw 0;done()}).catch(function(){er('ส่งข้อมูลไม่สำเร็จ กรุณาลองใหม่อีกครั้ง')})}
+ else if(C.LINE_ID){var m='สนใจปรึกษาหมอวิท\nชื่อ: '+d.name+'\nโทร: '+p+'\nข้อกังวล: '+(d.concerns.join(', ')||'-')+(d.caseOfInterest?'\nเคสที่สนใจ: '+d.caseOfInterest:'')+'\nเวลาที่สะดวก: '+d.time;window.open('https://line.me/R/oaMessage/'+C.LINE_ID+'/?'+encodeURIComponent(m),'_blank','noopener');done()}
+ else er('ยังไม่ได้ตั้งค่าช่องทางรับข้อมูล (C.LEAD_ENDPOINT หรือ C.LINE_ID)');return false}
+function reset(){aiMode=0;AIF=[];$('ag').value='';$('se').textContent='';sel.clear();fs.clear();photo=null;pick=-1;$('n1').disabled=true;box.querySelectorAll('.opt').forEach(function(x){x.setAttribute('aria-pressed','false')});$('frame').textContent='ยังไม่มีรูป';$('cpw').hidden=true;$('cp').checked=false;$('fm').reset();$('fm').hidden=false;$('ok').hidden=true;go(0)}
+function stg(s){[].forEach.call(s.querySelector('.w').children,function(c,i){c.style.setProperty('--i',i)});[].forEach.call(s.querySelectorAll('.ht>*'),function(c,i){c.style.setProperty('--j',i)})}
+document.addEventListener('pointerdown',function(e){var b=e.target.closest('.btn,.opt,.chip,.back,.fab,nav button');if(!b||b.disabled)return;var r=b.getBoundingClientRect(),s=Math.max(r.width,r.height)*2,p=document.createElement('span');p.className='rp';p.style.cssText='width:'+s+'px;height:'+s+'px;left:'+(e.clientX-r.left-s/2)+'px;top:'+(e.clientY-r.top-s/2)+'px';b.appendChild(p);setTimeout(function(){p.remove()},650)});
+function X(v){return String(v==null?'':v).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function RZ(){var z=$('rz');z.hidden=!aiMode;if(!aiMode)return;var rf=$('rf');rf.innerHTML='';if(photo){var im=new Image();im.alt='รูปใบหน้าของคุณ';im.src=photo;rf.appendChild(im);rf.hidden=false}else rf.hidden=true;$('rl').innerHTML=(AIF.length?'<p style="font-weight:500">สิ่งที่ AI พบจากใบหน้าของคุณ</p>'+AIF.map(function(f){return'<button class="fd" onclick="$(\'cases\').scrollIntoView({behavior:\'smooth\'})"><span><b>'+X(f.t)+'</b><small>'+X(f.d)+'</small></span>›</button>'}).join(''):'<p>ยังวิเคราะห์ไม่สำเร็จ ดูเคสตัวอย่างด้านล่างหรือปรึกษาหมอได้เลย</p>')+(C.AI_ENDPOINT?'':'<p><small>⚠ ผลตัวอย่างสำหรับทดสอบ ยังไม่ได้เชื่อมระบบ AI จริง (ตั้งค่า C.AI_ENDPOINT)</small></p>')}
+function ana(){var e=$('se');e.textContent='';if(!photo){e.textContent='กรุณาเลือกหรือถ่ายรูปใบหน้าก่อน';return}if(!$('cp').checked){e.textContent='กรุณาติ๊กยินยอมให้ใช้รูปเพื่อวิเคราะห์';return}
+ aiMode=1;go(7);var p=0,dn=0,t=setInterval(function(){p=Math.min(dn?100:90,p+(rm?30:3));$('pb').style.width=p+'%';$('pt').textContent=p+'%';if(p>=100){clearInterval(t);setTimeout(function(){go(3)},300)}},90);
+ (C.AI_ENDPOINT?fetch(C.AI_ENDPOINT,{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify({photo:photo})}).then(function(r){return r.json()}).then(function(j){AIF=j.findings||[]}).catch(function(){AIF=[]}):Promise.resolve(AIF=DEMO.slice())).then(function(){dn=1})}
+function CD(k){pick=k;var c=CASES[k],n=c.note||[],Q=["เคสนี้ต้องการแก้ปัญหาอะไร?","ทำไมจึงเลือกแนวทางนี้?","เป้าหมายของผลลัพธ์คืออะไร?"];$('cn').textContent='Case Study · '+c.name;
+ $('cd').innerHTML='<div class="cdi" style="margin-bottom:14px">'+SL(c.slot,0,"ภาพก่อน-หลัง "+c.name)+'</div><div class="faq"><details open><summary>Doctor’s Note</summary>'+Q.map(function(q,i){return'<p><b>'+q+'</b><br>'+X(n[i]||'รอข้อมูลจากคลินิก')+'</p>'}).join('')+'</details></div>'+(C.VIDEO_URL?'<p style="margin-top:10px"><a class="btn ghost" style="text-decoration:none" target="_blank" rel="noopener" href="'+X(C.VIDEO_URL)+'">▶ ฟังจากหมอวิท</a></p>':'')+(C.LINE_ID?'<p style="margin-top:10px"><a class="btn lt" style="text-decoration:none" target="_blank" rel="noopener" href="https://line.me/R/ti/p/'+X(C.LINE_ID)+'">ปรึกษาผ่าน LINE</a></p>':'');T('case_view',{k:k});go(6)}
+function ln(){var m='สนใจปรึกษาหมอวิท'+(sel.size?'\nข้อกังวล: '+[...sel].map(function(i){return N[i]}).join(', '):'')+($('ag').value?'\nอายุ: '+$('ag').value:'')+(pick>=0?'\nเคสที่สนใจ: '+CASES[pick].name:'');T('line_open');window.open('https://line.me/R/oaMessage/'+C.LINE_ID+'/?'+encodeURIComponent(m),'_blank','noopener')}
+var cur=0;function hs(){$('hd').classList.toggle('sc',cur!=0||scrollY>30)}addEventListener('scroll',hs,{passive:true});function tm(){var o=$('nv').classList.toggle('open');$('bgb').setAttribute('aria-expanded',o)}function gp(){go(3);setTimeout(function(){$('pr').scrollIntoView({behavior:'smooth'})},120)}
+var booted=0,ld=$('ld'),rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function boot(){if(booted)return;booted=1;setTimeout(function(){ld.classList.add('out');go(0);setTimeout(function(){ld.remove()},700)},rm?0:1000)}
+document.readyState=='complete'?boot():addEventListener('load',boot);setTimeout(boot,3500);
+</script>
+</body>
+</html>
